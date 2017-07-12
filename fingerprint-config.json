@@ -1,0 +1,42 @@
+[
+  {
+    "condition": {
+      "all": [
+        {
+          "eq": "browser", 
+          "path": "platform"
+        }, 
+        {
+          "eq": "browser-js", 
+          "path": "framework"
+        }, 
+        {
+          "any": [
+            {
+              "eq": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0; GomezAgent 3.0) like Gecko", 
+              "path": "client.javascript.browser"
+            }, 
+            {
+              "eq": "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)", 
+              "path": "client.javascript.browser"
+            }, 
+            {
+              "eq": "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)", 
+              "path": "client.javascript.browser"
+            }, 
+            {
+              "eq": "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)", 
+              "path": "client.javascript.browser"
+            }, 
+            {
+              "eq": "abcdefghijklmnopqrstuvwxyz123456", 
+              "path": "person.id"
+            }
+          ]
+        }
+      ]
+    }, 
+    "fingerprint": "Crawler JS error", 
+    "title": "Crawler JS error"
+  }
+]
