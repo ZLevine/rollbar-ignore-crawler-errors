@@ -13,6 +13,10 @@
         {
           "any": [
             {
+              "eq": "abcdefghijklmnopqrstuvwxyz123456",
+              "path": "person.id"
+            },
+            {
               "eq": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0; GomezAgent 3.0) like Gecko", 
               "path": "client.javascript.browser"
             }, 
@@ -27,10 +31,6 @@
             {
               "eq": "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)", 
               "path": "client.javascript.browser"
-            }, 
-            {
-              "eq": "abcdefghijklmnopqrstuvwxyz123456", 
-              "path": "person.id"
             }
           ]
         }
