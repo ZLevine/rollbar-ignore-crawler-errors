@@ -31,6 +31,46 @@
             {
               "eq": "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)", 
               "path": "client.javascript.browser"
+            },
+            {
+              "eq": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "Googlebot-News",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "Googlebot-Image/1.0",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "Googlebot-Video/1.0",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "SAMSUNG-SGH-E250/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "(compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "Mediapartners-Google",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "AdsBot-Google (+http://www.google.com/adsbot.html)",
+              "path": "client.javascript.browser"
+            },
+            {
+              "eq": "AdsBot-Google-Mobile-Apps",
+              "path": "client.javascript.browser"
             }
           ]
         }
